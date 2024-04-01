@@ -1,0 +1,8 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/chill_king_grand_spells					
+wh2_ability_enable_eternal_winter	general_ability.png	101	general_ability.png	battle	true
+wh2_ability_enable_gates_of_avalon	general_ability.png	100	general_ability.png	battle	true
+wh2_ability_enable_freeze_beam	general_ability.png	100	general_ability.png	battle	true
+wh2_ability_enable_eternal_winter_uses	general_ability.png	101	general_ability.png	battle	true
+wh2_ability_enable_gates_of_avalon_uses	general_ability.png	100	general_ability.png	battle	true
+wh2_ability_enable_freeze_beam_uses	general_ability.png	100	general_ability.png	battle	true

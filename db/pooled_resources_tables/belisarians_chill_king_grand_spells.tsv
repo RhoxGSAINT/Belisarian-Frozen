@@ -1,0 +1,3 @@
+key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors
+#pooled_resources_tables;1;db/pooled_resources_tables/belisarians_chill_king_grand_spells													
+eternal_ice	100	0	false	other	Belisarian_eternal_ice_summarybutt.png	END_OF_ROUND	false	FACTION	false	0		false	true

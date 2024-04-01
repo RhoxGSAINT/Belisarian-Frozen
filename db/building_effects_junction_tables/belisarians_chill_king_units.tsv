@@ -1,0 +1,8 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/belisarians_chill_king_units						
+wh2_main_brt_ice_castle_1	wh_main_brt_snow_elf_spearmen		building_to_faction_own	1.0000	1.0000	0.0000
+wh2_main_brt_ice_castle_2	wh_main_brt_snow_elf_spearmen		building_to_faction_own	1.0000	1.0000	0.0000
+wh2_main_brt_ice_castle_3	wh_main_brt_snow_elf_spearmen		building_to_faction_own	1.0000	1.0000	0.0000
+wh2_main_brt_ice_castle_2	wh_main_brt_snow_elf_elite		building_to_faction_own	1.0000	1.0000	0.0000
+wh2_main_brt_ice_castle_3	wh_main_brt_snow_elf_elite		building_to_faction_own	1.0000	1.0000	0.0000
+wh2_main_brt_ice_castle_3	wh_main_brt_snow_elf_cavalry		building_to_faction_own	1.0000	1.0000	0.0000

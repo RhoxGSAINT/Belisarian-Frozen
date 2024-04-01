@@ -1,0 +1,4 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/belisarians_chill_king							
+wh2_brt_cha_chill_king		brt_cha_chill_king		0.0000	1.2000	0.0000	
+wh2_brt_cha_chill_king_campaign		brt_cha_chill_king		1.0000	0.4500	0.0000	

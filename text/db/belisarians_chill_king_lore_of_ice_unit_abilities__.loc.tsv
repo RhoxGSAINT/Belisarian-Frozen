@@ -1,0 +1,18 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_lore_of_ice_unit_abilities__.loc		
+unit_abilities_tooltip_text_wh_main_spell_lore_of_ice_ice_blades	This spell is made to overwhelm even toughest of opponents, by throwing at them dozens of conjured icy blades. When overcasted it can dispatch even toughest of mongrels.  	true
+unit_abilities_onscreen_name_wh_main_spell_lore_of_ice_ice_blades	Blades of Ice	true
+unit_abilities_tooltip_text_wh_main_spell_lore_of_ice_ice_blades_overcharged	This spell is made to overwhelm even toughest of opponents, by throwing at them dozens of conjured icy blades. When overcasted it can dispatch even toughest of mongrels.  	true
+unit_abilities_onscreen_name_wh_main_spell_lore_of_ice_ice_blades_overcharged	Blades of Ice	true
+unit_abilities_tooltip_text_wh_main_spell_lore_of_ice_ice_wall	Non shall pass. This ice wall blocks passage for anyone, being it friend or foe. 	true
+unit_abilities_onscreen_name_wh_main_spell_lore_of_ice_ice_wall	Ice Wall	true
+unit_abilities_tooltip_text_wh_main_spell_lore_of_ice_crystal_field	Filling field with sharp icy spikes can make traversing it really dangerous.	true
+unit_abilities_onscreen_name_wh_main_spell_lore_of_ice_crystal_field	Crystal Field	true
+unit_abilities_tooltip_text_wh_main_spell_lore_of_ice_snowman	Sometimes its best just to roll enemies into the ground and who is better for that job than Giant Snowman. 	true
+unit_abilities_onscreen_name_wh_main_spell_lore_of_ice_snowman	Giant Snowman	true
+unit_abilities_tooltip_text_wh_main_spell_lore_of_ice_snowstorm	Swirling Snowstorm sweeps away any missiles that are caught inside, making ranged weapons almost useless.	true
+unit_abilities_onscreen_name_wh_main_spell_lore_of_ice_snowstorm	Snowstorm	true
+unit_abilities_tooltip_text_wh_main_spell_lore_of_ice_shield_of_ice	No one can block with his shield everything, that§s why it is good idea to summon extra magical shields for protection.	true
+unit_abilities_onscreen_name_wh_main_spell_lore_of_ice_shield_of_ice	Ice Shield	true
+unit_abilities_tooltip_text_wh_main_spell_lore_of_ice_icy_fresh	Every time ice spell is cast fresh breeze runs through the battlefield.	true
+unit_abilities_onscreen_name_wh_main_spell_lore_of_ice_icy_fresh	Icy Fresh	true

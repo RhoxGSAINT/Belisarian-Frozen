@@ -1,0 +1,6 @@
+key	decal	vfx_central	vfx_ring	spline_animation_speed	spline_tile_count	composite_scene	is_targetting_per_entity	vfx_ring_segment_length	use_model_time	custom_spline	spline_col_hex	spline_oor_col_hex
+#area_of_effect_displays_tables;9;db/area_of_effect_displays_tables/belisarians_chill_king_lore_of_ice												
+belisarians_lore_of_ice_crystal_field		belisarians_lore_of_ice_crystal_field	wh_main_generic_ui_segment_debuff	50.0000	64		false	5	true		FFFFFF	FFFFFF
+belisarians_lore_of_ice_snowstorm		belisarians_lore_of_ice_snowstorm	wh_main_generic_ui_segment_debuff	50.0000	64		false	5	true		FFFFFF	FFFFFF
+belisarians_lore_of_ice_ice_wall				50.0000	64	composite_scene\spells_and_abilities\wh_main_spell_lore_of_ice_ice_wall.csc	false	5	true		FFFFFF	FFFFFF
+belisarians_chill_king_castle			wh_main_generic_ui_segment_buff	50.0000	64	composite_scene\spells_and_abilities\chill_kings_castle.csc	false	5	true		FFFFFF	FFFFFF

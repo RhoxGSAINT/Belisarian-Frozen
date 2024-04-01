@@ -1,0 +1,5 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/belisarians_chill_king_grand_spells						
+wh2_main_brt_ice_tower_1	Belisarian_eternal_ice_change_buildings		faction_to_faction_own_unseen	1.0000	0.0000	0.0000
+wh2_main_brt_ice_tower_2	Belisarian_eternal_ice_change_buildings		faction_to_faction_own_unseen	2.0000	1.0000	0.0000
+wh2_main_brt_ice_tower_3	Belisarian_eternal_ice_change_buildings		faction_to_faction_own_unseen	4.0000	2.0000	0.0000

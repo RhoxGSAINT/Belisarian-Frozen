@@ -1,0 +1,21 @@
+key	building	unit	XP	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/belisarians_chill_king_units						
+4578774	wh2_main_brt_ice_castle_3	wh_main_brt_mon_ice_shard_drake	0	0		false
+4578775	wh2_main_brt_ice_castle_3	wh_main_brt_snow_elf_elite	0	0		false
+4578776	wh2_main_brt_ice_castle_3	wh_main_brt_snow_elf_spearmen	0	0		false
+4578777	wh2_main_brt_ice_castle_3	wh_main_brt_snow_elf_cavalry	0	0		false
+4578675	wh2_main_brt_ice_castle_2	wh_main_brt_snow_elf_elite	0	0		false
+4578676	wh2_main_brt_ice_castle_2	wh_main_brt_snow_elf_spearmen	0	0		false
+4578576	wh2_main_brt_ice_castle_1	wh_main_brt_snow_elf_spearmen	0	0		false
+4578778	wh2_main_brt_ice_tower_3	wh_main_brt_snow_golem_shields	0	0		false
+4578779	wh2_main_brt_ice_tower_3	wh_main_brt_snow_golems_greatswords	0	0		false
+4578780	wh2_main_brt_ice_tower_3	wh_main_brt_snow_golems_spears	0	0		false
+4578678	wh2_main_brt_ice_tower_2	wh_main_brt_snow_golem_shields	0	0		false
+4578679	wh2_main_brt_ice_tower_2	wh_main_brt_snow_golems_greatswords	0	0		false
+4578680	wh2_main_brt_ice_tower_2	wh_main_brt_snow_golems_spears	0	0		false
+4578558	wh2_main_brt_ice_tower_1	wh_main_brt_snow_golem_shields	0	0		false
+4578559	wh2_main_brt_ice_tower_1	wh_main_brt_snow_golems_greatswords	0	0		false
+4578560	wh2_main_brt_ice_tower_1	wh_main_brt_snow_golems_spears	0	0		false
+4578458	wh2_main_brt_ice_tower_0	wh_main_brt_snow_golem_shields	0	0		false
+4578459	wh2_main_brt_ice_tower_0	wh_main_brt_snow_golems_greatswords	0	0		false
+4578460	wh2_main_brt_ice_tower_0	wh_main_brt_snow_golems_spears	0	0		false

@@ -1,0 +1,5 @@
+agent_subtype	vow
+#agent_subtype_to_vows_tables;0;db/agent_subtype_to_vows_tables/belisarians_chill_king	
+wh2_main_brt_cha_chill_king	grail_vow
+wh2_main_brt_cha_chill_king	knights_vow
+wh2_main_brt_cha_chill_king	questing_vow

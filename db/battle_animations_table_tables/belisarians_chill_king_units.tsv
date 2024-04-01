@@ -1,0 +1,5 @@
+key	skeleton
+#battle_animations_table_tables;0;db/battle_animations_table_tables/belisarians_chill_king_units	
+dr1_landdragon_beli_01	dragon01
+hr1_frost_steed_beli	horse01
+hu1d_elf_hr1_frost_warhorse_lance_sword_shield_beli	humanoid01d

@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_units__unit_abilities__.loc		
+unit_abilities_tooltip_text_wh2_ice_shard_drake__ice_spikes	Ice Drake channels its freezing essence into ground producing razor sharp spikes around himself.	true
+unit_abilities_onscreen_name_wh2_ice_shard_drake__ice_spikes	Ice Spikes	true
+unit_abilities_tooltip_text_wh2_unseelie_riders__wind_gust	Riders ride with the wind, and that wind will strike at the enemy even before they do, throwing them around like a hurricane.	true
+unit_abilities_onscreen_name_wh2_unseelie_riders__wind_gust	Wind Gust	true
+unit_abilities_tooltip_text_wh2_unseelie__ice_nova	Icy spears of unseelie can be used to freeze enemy to the ground.	true
+unit_abilities_onscreen_name_wh2_unseelie__ice_nova	Freezing Ground	true
+unit_abilities_tooltip_text_wh2_unseelie__shield_wall_storm	Unseelie form tight formation, concentrating  magic of their armour and forming whirlwind that protects against arrows.	true
+unit_abilities_onscreen_name_wh2_unseelie__shield_wall_storm	Wall of Wind	true
+unit_abilities_tooltip_text_wh_snow_golems_unit_passive_unstable	Snow constructs are magical golems, soulless automatons under command of the frost mage.	true
+unit_abilities_tooltip_text_wh_snow_golems_unit_passive_unstable_mark_ii	Snow constructs do not just hold together by themselves, some magic is needed and if magic dissipates so will they.	true
+unit_abilities_onscreen_name_wh_snow_golems_unit_passive_unstable_mark_ii	Disintegrating Snow	true
+unit_abilities_onscreen_name_wh_snow_golems_unit_passive_unstable	Crumbling Snow	true

@@ -1,0 +1,4 @@
+key	playable	effect_bundle	initial_power	campaign_key
+#political_parties_tables;7;db/political_parties_tables/belisarians_chill_king_unlocker				
+wh2_main_political_party_brt_frozen_order	true	wh_main_faction_trait_bretonnia	100	main_warhammer
+wh2_main_political_party_vor_brt_frozen_order	true	wh_main_faction_trait_bretonnia	100	wh2_main_great_vortex

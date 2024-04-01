@@ -1,0 +1,5 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/belisarians_chill_king_units_snowmen							
+wh_main_brt_inf_cute_snowmen_shield		brt_cute_snowmen_shield		1.0000	1.0000	0.0500	
+wh_main_brt_inf_cute_snowmen_halb		brt_cute_snowmen_halb		1.0000	1.0000	0.0500	
+wh_main_brt_inf_cute_snowmen_axe		brt_cute_snowmen_axe		1.0000	1.0000	0.0500	

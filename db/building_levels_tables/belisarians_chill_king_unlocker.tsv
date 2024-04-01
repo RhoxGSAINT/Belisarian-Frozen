@@ -1,0 +1,9 @@
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
+#building_levels_tables;0;db/building_levels_tables/belisarians_chill_king_unlocker																							
+wh2_main_brt_ice_tower_0	wh_main_BRETONNIA_ice_tower	0	1	750	0		false	false			true		false	0.0000	0	true	1		true	0	0		0
+wh2_main_brt_ice_tower_1	wh_main_BRETONNIA_ice_tower	1	2	1500	0		false	false			true		false	0.0000	0	true	2		true	0	0		0
+wh2_main_brt_ice_tower_2	wh_main_BRETONNIA_ice_tower	2	3	4000	0		false	false			true		false	0.0000	0	true	3		true	0	0		0
+wh2_main_brt_ice_tower_3	wh_main_BRETONNIA_ice_tower	3	4	7000	0		false	false			true		false	0.0000	0	true	4		true	0	0		0
+wh2_main_brt_ice_castle_1	wh_main_BRETONNIA_ice_castle	0	3	4000	0		false	false			true		false	0.0000	0	true	3		true	0	0		0
+wh2_main_brt_ice_castle_2	wh_main_BRETONNIA_ice_castle	1	4	7000	0		false	false			true		false	0.0000	0	true	4		true	0	0		0
+wh2_main_brt_ice_castle_3	wh_main_BRETONNIA_ice_castle	2	5	10000	0		false	false			true		false	0.0000	0	true	5		true	0	0		0

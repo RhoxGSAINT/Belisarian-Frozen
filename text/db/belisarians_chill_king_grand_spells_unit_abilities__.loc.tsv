@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_grand_spells_unit_abilities__.loc		
+unit_abilities_tooltip_text_wh2_main_army_abilities_eternal_winter	Casket of Eternal Winters contains icy winds which can freeze ground from here to horizon turning even hottest of deserts into wintery plane.(Cost 25 [[img:belisarian_eternal_ice]][[/img]])	true
+unit_abilities_onscreen_name_wh2_main_army_abilities_eternal_winter	Casket of Eternal Winters	true
+unit_abilities_tooltip_text_wh2_main_army_abilities_gates_of_avalon	Gate of Avalon is portal to land of dreams, knights and dragons. You can always find friends who are willing to help there .(Cost 25 [[img:belisarian_eternal_ice]][[/img]])	true
+unit_abilities_onscreen_name_wh2_main_army_abilities_gates_of_avalon	Gate of Avalon	true
+unit_abilities_tooltip_text_wh2_main_army_abilities_freeze_beam	Master mages of Icy Tower can perform ritual to fire remote freezing beam and freeze anyone in area of your choosing.(Cost 25 [[img:belisarian_eternal_ice]][[/img]])	true
+unit_abilities_onscreen_name_wh2_main_army_abilities_freeze_beam	Freezing Beam	true

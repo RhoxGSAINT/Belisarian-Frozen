@@ -1,0 +1,5 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/belisarians_chill_king_units				
+wh_main_brt_snow_elf_elite	false	-1	-1	
+wh_main_brt_snow_elf_spearmen	false	-1	-1	
+wh_main_brt_snow_elf_cavalry	false	-1	-1	

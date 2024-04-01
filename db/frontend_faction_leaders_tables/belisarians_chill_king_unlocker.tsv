@@ -1,0 +1,3 @@
+key	uniform	x_offset	y_offset	character_image	prelude_battle	video	loading_screen_image	loading_screen_intro_video	override_force_location_x	override_force_location_y	voiceover	show_full_intro_option	difficulty	startpos_map	agent_subtype_record	faction
+#frontend_faction_leaders_tables;1;db/frontend_faction_leaders_tables/belisarians_chill_king_unlocker																
+mixer_brt_uprising	composite_scene\lord_selection\kislev\katarin.csc	0.0000	0.0000	UI\Portraits\Faction_leaders\bretonia_chill_king.png		Front_end_selection_movies/chill_king_front_end	ui/loading_ui/load_images/chill_king_loading.png		-1.0000	-1.0000	wh_dlc07_vo_actor_Bretonnian_Alberic	false		default	wh2_main_brt_cha_chill_king	mixer_brt_uprising

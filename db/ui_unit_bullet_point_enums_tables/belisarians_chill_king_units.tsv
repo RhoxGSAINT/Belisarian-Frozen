@@ -1,0 +1,7 @@
+key	state	sort_order	icon_path
+#ui_unit_bullet_point_enums_tables;4;db/ui_unit_bullet_point_enums_tables/belisarians_chill_king_units			
+shockwave_charge	very_positive	0	
+roots_enemy	positive	0	
+protect_area_ability	very_positive	0	
+ice_elemental	negative	51	
+frost_armour	positive	40	

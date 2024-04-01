@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/dr1/hef/hef_sun_dragon/brt_chill_king_body.wsmodel" >
+			<META_DATA>audio_entity_type:wh2_hef_dragon_large_sun</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/dr1/def/def_black_dragon/brt_chill_king_leg_armor.wsmodel" >
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh2_hef_dragon_large_black</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

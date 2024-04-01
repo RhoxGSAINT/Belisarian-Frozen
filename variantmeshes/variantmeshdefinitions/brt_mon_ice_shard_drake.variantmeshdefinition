@@ -1,0 +1,6 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="variantmeshes/wh_variantmodels/dr1/brt/brt_shard_dragon/ice_shard_dragon.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh2_hef_dragon_large_black</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

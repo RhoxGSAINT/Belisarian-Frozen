@@ -1,0 +1,5 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/belisarians_chill_king_units					
+wh_main_brt_snow_elf_elite	unit_capacity.png	1	unit_capacity.png	campaign	true
+wh_main_brt_snow_elf_spearmen	unit_capacity.png	1	unit_capacity.png	campaign	true
+wh_main_brt_snow_elf_cavalry	unit_capacity.png	1	unit_capacity.png	campaign	true

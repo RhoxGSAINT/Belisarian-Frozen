@@ -1,0 +1,6 @@
+<model>
+	<geometry>vfx/models/chill_king_flatplane.rigid_model_v2</geometry>
+	<materials>
+		<material>materials/vfx/spell_targeting/brt_eternal_winter_magic_ring_02.xml.material</material>
+	</materials>
+</model>

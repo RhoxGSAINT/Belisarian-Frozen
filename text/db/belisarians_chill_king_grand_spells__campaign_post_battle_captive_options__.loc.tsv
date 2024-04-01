@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_grand_spells__campaign_post_battle_captive_options__.loc		
+campaign_post_battle_captive_options_description_enslavewh2_captive_option_enslave_frozen_order	Use captives for collecting of Eternal Ice shards from wilderness.	true
+campaign_post_battle_captive_options_onscreen_name_enslavewh2_captive_option_enslave_frozen_order	Collect Ice Shards	true

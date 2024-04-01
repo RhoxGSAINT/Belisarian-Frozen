@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_units__effects__.loc		
+effects_description_wh_main_brt_snow_elf_cavalry	Unit capacity: %+n\\nUnseelie Riders	true
+effects_description_wh_main_brt_snow_elf_spearmen	Unit capacity: %+n\\nUnseelie Spearmen	true
+effects_description_wh_main_brt_snow_elf_elite	Unit capacity: %+n\\nUnseelie Elite Guard	true

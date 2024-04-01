@@ -1,0 +1,4 @@
+key	decal	vfx_central	vfx_ring	spline_animation_speed	spline_tile_count	composite_scene	is_targetting_per_entity	vfx_ring_segment_length	use_model_time	custom_spline	spline_col_hex	spline_oor_col_hex
+#area_of_effect_displays_tables;9;db/area_of_effect_displays_tables/belisarians_chill_king_units												
+wh2_ice_shard_drake__ice_spikes		belisarians_ice_shard_drake__ice_spikes		50.0000	64		false	5	true		FFFFFF	FFFFFF
+wh2_unseelie__shield_wall_storm		belisarians__shield_wall_storm	wh_main_generic_ui_segment_debuff	50.0000	64		false	5	true		FFFFFF	FFFFFF

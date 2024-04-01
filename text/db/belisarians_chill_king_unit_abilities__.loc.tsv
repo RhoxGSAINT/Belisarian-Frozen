@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_unit_abilities__.loc		
+unit_abilities_tooltip_text_wh_main_spell_brt_chill_king_excalibur	Legendary sword that can be drawn only by true king, so why not use it as roadblock? Or throw it even harder to smash walls.	true
+unit_abilities_onscreen_name_wh_main_spell_brt_chill_king_excalibur	Excalibur	true
+unit_abilities_tooltip_text_wh_main_spell_brt_chill_king_excalibur_upgraded	Legendary sword that can be drawn only by true king, so why not use it as roadblock? Or throw it even harder to smash walls.	false
+unit_abilities_onscreen_name_wh_main_spell_brt_chill_king_excalibur_upgraded	Excalibur Wallbreaker	false
+unit_abilities_tooltip_text_wh_main_spell_brt_chill_king_excalibur_slash	Single slash from Excalibur can slice regiments in half.	true
+unit_abilities_onscreen_name_wh_main_spell_brt_chill_king_excalibur_slash	Excalibur Slash	true
+unit_abilities_tooltip_text_wh_main_spell_brt_chill_king_castle	Castle of one true king. Your soldiers are protected inside, out of enemy reach. 	true
+unit_abilities_onscreen_name_wh_main_spell_brt_chill_king_castle	Camelot	true

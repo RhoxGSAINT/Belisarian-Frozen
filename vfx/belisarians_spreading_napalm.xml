@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="2" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>
+	<vfx inst_name="main" vfx_ref="wh_main_lib_fire_impact" scale_min="2.90" scale_max="2.05" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="fire_beam_impact" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="omni" enable="false" tint_min_r="1.00" tint_min_g="0.66" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="0.66" tint_max_b="0.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="1.00"/>
+		<emitter name="decal_impact" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="fire_ring_impact" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="fire_impact_remains" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="1.00" emitter_lifetime_bias_max="2.00"/>
+		<emitter name="grey_beam_impact" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="grey_ring_impact" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="grey_impact_reamin" enable="false" tint_min_r="0.20" tint_min_g="0.10" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="0.20" tint_max_g="0.10" tint_max_b="0.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="fire_beam_impact2" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="fire_ring_impact2" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="grey_ring_impact2" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="grey_beam_impact2" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="WP" vfx_ref="_wip_components" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="3.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="0.4m" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="5m_pole" enable="false" tint_min_r="1.00" tint_min_g="0.55" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="0.55" tint_max_b="0.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+</vfx_references>

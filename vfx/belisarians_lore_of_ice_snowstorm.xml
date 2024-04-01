@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="2" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>	
+	<!-- core -->
+	<vfx inst_name="vfxref_1434" vfx_ref="belisarians_lib_lore_of_ice_snowstorm" scale_min="3.00" scale_max="3.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
+		<emitter name=" snow_storm_vortex" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="20.00" emitter_lifetime_bias_max="20.00"/>
+	</vfx>
+	
+	<!-- decal -->
+	<vfx inst_name="main" vfx_ref="belisarians_lib_lore_of_ice_snowstorm" scale_min="4.5" scale_max="4.5" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="90.00" rot_z="0.00" start_time_min="0.80" start_time_max="0.80" infinite_life="false">
+		<emitter name="snow_ground_decal" enable="true" tint_min_r="2.00" tint_min_g="2.00" tint_min_b="2.00" tint_min_a="1.00" tint_max_r="2.00" tint_max_g="2.00" tint_max_b="2.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<!-- gusts -->
+	<vfx inst_name="vortic_blue" vfx_ref="belisarians_lib_lore_of_ice_snowstorm" scale_min="1.50" scale_max="1.50" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="5.00" start_time_max="5.00" infinite_life="true">
+			<emitter name="EXP_wisps" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="60.00" emitter_lifetime_bias_max="60.00"/>
+	</vfx>
+	<vfx inst_name="vortic_blue" vfx_ref="belisarians_lib_lore_of_ice_snowstorm" scale_min="1.50" scale_max="1.50" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="5.00" start_time_max="5.00" infinite_life="true">
+			<emitter name="EXP_wisps" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="60.00" emitter_lifetime_bias_max="60.00"/>
+	</vfx>
+	<vfx inst_name="vortic_blue" vfx_ref="belisarians_lib_lore_of_ice_snowstorm" scale_min="1.50" scale_max="1.50" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="5.00" start_time_max="5.00" infinite_life="true">
+			<emitter name="EXP_wisps" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="60.00" emitter_lifetime_bias_max="60.00"/>
+	</vfx>	
+	
+	<!-- rotating stuff -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_lore_of_ice_snowstorm" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false"> -->
+		<!-- <emitter name="bounding_wind_big" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="2.75" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="2.80" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="50.00" emitter_lifetime_bias_max="50.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_lore_of_ice_snowstorm" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false"> -->
+		<!-- <emitter name="bounding_wind_big" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="2.75" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="2.80" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="50.00" emitter_lifetime_bias_max="50.00"/> -->
+	<!-- </vfx> -->
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_lore_of_ice_snowstorm" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="bounding_wind_big" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="2.75" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="2.80" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="50.00" emitter_lifetime_bias_max="50.00"/>
+	</vfx>
+	
+	<!-- bounding circle -->
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_lore_of_ice_snowstorm" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="mist_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="2.75" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="2.80" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="50.00" emitter_lifetime_bias_max="50.00"/>
+	</vfx>
+
+
+
+
+</vfx_references>

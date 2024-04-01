@@ -1,0 +1,3 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/belisarians_chill_king										
+mixer_brt_uprising	true	wh2_main_brt_cha_chill_king	true	true	ui/portraits/portholes/wh2_main_def_dark_elves/wh2_brt_cha_chill_king.png	uniform_brt_cha_chill_king	wh2_main_brt_cha_chill_king	false		false

@@ -1,0 +1,9 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/belisarians_chill_king_units										
+mixer_brt_uprising	false	wh_main_brt_mon_ice_shard_drake	true	true				false		false
+mixer_brt_uprising	false	wh_main_brt_snow_elf_elite	true	true				false		false
+mixer_brt_uprising	false	wh_main_brt_snow_elf_spearmen	true	true				false		false
+mixer_brt_uprising	false	wh_main_brt_snow_elf_cavalry	true	true				false		false
+mixer_brt_uprising	false	wh_main_brt_snow_golem_shields	true	true				false		false
+mixer_brt_uprising	false	wh_main_brt_snow_golems_greatswords	true	true				false		false
+mixer_brt_uprising	false	wh_main_brt_snow_golems_spears	true	true				false		false

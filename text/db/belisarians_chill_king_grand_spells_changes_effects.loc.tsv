@@ -1,0 +1,11 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_grand_spells_changes_effects.loc		
+effects_description_Belisarian_eternal_ice_change	Eternal Ice: %+n per turn	true
+effects_description_Belisarian_eternal_ice_change_buildings	Eternal Ice: %+n per turn	true
+effects_description_Belisarian_eternal_ice_change_chars	Eternal Ice: %+n per turn	true
+effects_description_Belisarian_eternal_ice_change_battles	Eternal Ice: %+n per turn	true
+effects_description_Belisarian_eternal_ice_change_units	Eternal Ice: %+n per turn	true
+effects_description_Belisarian_eternal_ice_change_ror	Eternal Ice: %+n per turn	true
+effects_description_wh2_ability_enable_freeze_beam_uses	Unlocks ability: "Freezing Beam"	true
+effects_description_wh2_ability_enable_eternal_winter_uses	Unlocks ability: "Eternal Winter"	true
+effects_description_wh2_ability_enable_gates_of_avalon_uses	Unlocks ability: "Gate of Avalon"	true

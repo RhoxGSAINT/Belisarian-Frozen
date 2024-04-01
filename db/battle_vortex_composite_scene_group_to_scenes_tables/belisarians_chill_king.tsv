@@ -1,0 +1,3 @@
+id	composite_scene	group_id	trigger_delay	freeze_position	freeze_rotation
+#battle_vortex_composite_scene_group_to_scenes_tables;0;db/battle_vortex_composite_scene_group_to_scenes_tables/belisarians_chill_king					
+48759852	composite_scene\spells_and_abilities\chill_kings_castle.csc	wh2_chill_king_castle	0.0000	false	false

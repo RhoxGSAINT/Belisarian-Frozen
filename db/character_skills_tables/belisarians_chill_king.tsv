@@ -1,0 +1,22 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/belisarians_chill_king									
+wh2_main_skill_innate_brt_chill_king	trait_bretonnia.png		Comet	0	true	false	false	5.0000	0
+wh2_main_skill_all_immortality_brt_chill_king	wh_main_hero_abilities_immortal_will.png		Immortality	0	false	false	false	0.0000	0
+wh2_main_skill_all_skill_dump_brt_chill_king	wh_main_lord_abilities_hold_the_line.png		Dump	0	false	false	false	0.0000	0
+wh2_main_skill_armour_brt_chill_king_frozen_armor	item_armour.png		Camelot armor	0	false	false	false	0.0000	0
+wh2_main_skill_weapon_brt_chill_king_excalibur	item_weapon.png		Dragon armor of power	0	false	false	false	0.0000	0
+wh2_main_skill_weapon_brt_chill_king_excalibur_overcharge	chill_king_excalibur_in_stone.png		Dragon armor of power	0	false	false	false	0.0000	0
+wh2_main_skill_weapon_brt_chill_king_excalibur_slash	chill_king_excalibur_slash.png		Dragon armor of power	0	false	false	false	0.0000	0
+wh2_main_skill_brt_chill_king_protector_01	wh2_dlc11_discipline_of_aborash.png		protector 1	0	false	false	false	0.0000	0
+wh2_main_skill_brt_chill_king_protector_02	wh2_def_comb_the_city.png		protector 2	0	false	false	false	0.0000	0
+wh2_main_skill_brt_chill_king_protector_03	item_armour.png		protector 3	0	false	false	false	0.0000	0
+wh2_main_skill_brt_chill_king_crusader_01	wh2_def_warleader.png		Crusader 1	0	false	false	false	0.0000	0
+wh2_main_skill_brt_chill_king_crusader_02	campaign_trade.png		Crusader 2	0	false	false	false	0.0000	0
+wh2_main_skill_brt_chill_king_crusader_03	wh2_dlc11_arson.png		Crusader 3	0	false	false	false	0.0000	0
+wh_main_skill_all_magic_frost_chill_king_01_ice_shield	chill_king_ice_lore_shields.png	 	Ice Shield	0	false	false	false	0.0000	0
+wh_main_skill_all_magic_frost_chill_king_02_crystal_field	chill_king_ice_lore_crystal_field.png	 	Crystal Field	0	false	false	false	0.0000	0
+wh_main_skill_all_magic_frost_chill_king_03_snowstorm	chill_king_ice_lore_snowstorm.png	 	Snowstorm	0	false	false	false	0.0000	0
+wh_main_skill_all_magic_frost_chill_king_04_icy_fresh	chill_king_ice_lore_icy_fresh.png	 	Icy Fresh	0	false	false	false	0.0000	0
+wh_main_skill_all_magic_frost_chill_king_05_blades_of_ice	chill_king_ice_lore_ice_blades.png	 	Blades of Ice	0	false	false	false	0.0000	0
+wh_main_skill_all_magic_frost_chill_king_09_ice_wall	chill_king_ice_lore_ice_wall.png	 	Ice Wall	0	false	false	false	0.0000	0
+wh_main_skill_all_magic_frost_chill_king_10_snowman	chill_king_ice_lore_snowman.png	 	Snowman	0	false	false	false	0.0000	0

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="2" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>
+	<!-- magic circle -->
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="7.01" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="false">
+		<emitter name="frost_magic_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="7.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="false">
+		<emitter name="frost_magic_outside_runes" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<!-- ice ground cross -->
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="220.00" scale_max="220.00" pos_x="1200.00" pos_y="0.01" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="snow_ground_decal" enable="true" tint_min_r="2.00" tint_min_g="2.00" tint_min_b="2.00" tint_min_a="1.00" tint_max_r="2.00" tint_max_g="2.00" tint_max_b="2.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>	
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="220.00" scale_max="220.00" pos_x="-1200.00" pos_y="0.02" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="snow_ground_decal" enable="true" tint_min_r="2.00" tint_min_g="2.00" tint_min_b="2.00" tint_min_a="1.00" tint_max_r="2.00" tint_max_g="2.00" tint_max_b="2.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>	
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="220.00" scale_max="220.00" pos_x="0.00" pos_y="0.03" pos_z="1200.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="snow_ground_decal" enable="true" tint_min_r="2.00" tint_min_g="2.00" tint_min_b="2.00" tint_min_a="1.00" tint_max_r="2.00" tint_max_g="2.00" tint_max_b="2.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>	
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="220.00" scale_max="220.00" pos_x="0.00" pos_y="0.04" pos_z="-1200.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="snow_ground_decal" enable="true" tint_min_r="2.00" tint_min_g="2.00" tint_min_b="2.00" tint_min_a="1.00" tint_max_r="2.00" tint_max_g="2.00" tint_max_b="2.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>	
+	
+	
+	<!-- ice lid movement -->
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="5.00" scale_max="5.00" pos_x="0.00" pos_y="2.50" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.5" start_time_max="0.5" infinite_life="false">
+		<emitter name="ice_box" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>		
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="5.00" scale_max="5.00" pos_x="0.00" pos_y="2.50" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.5" start_time_max="0.5" infinite_life="false">
+		<emitter name="ice_box_lid" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="5.00" scale_max="5.00" pos_x="0.00" pos_y="2.50" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="5.0" start_time_max="5.0" infinite_life="false">
+		<emitter name="ice_box_lid_moving_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="5.00" scale_max="5.00" pos_x="0.00" pos_y="2.50" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="6.0" start_time_max="6.0" infinite_life="false">
+		<emitter name="ice_box_lid_moving_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="5.00" scale_max="5.00" pos_x="0.00" pos_y="2.50" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="22.0" start_time_max="22.0" infinite_life="false">
+		<emitter name="ice_box_lid_moving_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="5.00" scale_max="5.00" pos_x="0.00" pos_y="2.50" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="23.0" start_time_max="23.0" infinite_life="false">
+		<emitter name="ice_box_lid_moving_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<!-- ice mist on box -->
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_castle" scale_min="1.00" scale_max="1.00" pos_x="-1.90.00" pos_y="10.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="6.00" start_time_max="6.00" infinite_life="false">
+		<emitter name="ice_mist" enable="true" tint_min_r="0.80" tint_min_g="0.90" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="0.80" tint_max_g="0.90" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-36.00" emitter_lifetime_bias_max="-36.00"/>
+	</vfx>
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_castle" scale_min="1.00" scale_max="1.00" pos_x="1.90.00" pos_y="10.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="6.00" start_time_max="6.00" infinite_life="false">
+		<emitter name="ice_mist" enable="true" tint_min_r="0.80" tint_min_g="0.90" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="0.80" tint_max_g="0.90" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-36.00" emitter_lifetime_bias_max="-36.00"/>
+	</vfx>
+	
+	<!-- ice streams -->
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="0.80" scale_max="0.80" pos_x="0.00" pos_y="9.00" pos_z="0.00" rot_x="00.00" rot_y="0.00" rot_z="0.00" start_time_min="5.50" start_time_max="5.50" infinite_life="false">
+		<emitter name="frost_streams" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="0.80" scale_max="0.80" pos_x="1.90" pos_y="9.00" pos_z="0.00" rot_x="00.00" rot_y="0.00" rot_z="0.00" start_time_min="5.50" start_time_max="5.50" infinite_life="false">
+		<emitter name="frost_streams" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_chill_king_eternal_winter" scale_min="0.80" scale_max="0.80" pos_x="-1.90" pos_y="9.00" pos_z="0.00" rot_x="00.00" rot_y="0.00" rot_z="0.00" start_time_min="5.50" start_time_max="5.50" infinite_life="false">
+		<emitter name="frost_streams" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+	
+	
+	
+	
+</vfx_references>

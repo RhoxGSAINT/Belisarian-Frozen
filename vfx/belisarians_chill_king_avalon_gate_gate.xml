@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="2" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>
+	
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_avalon_gates" scale_min="0.8" scale_max="0.8" pos_x="0.00" pos_y="-4.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="Gate_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_castle" scale_min="1.00" scale_max="1.00" pos_x="6.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.80" start_time_max="0.80" infinite_life="false">
+		<emitter name="snow_ground_decal" enable="true" tint_min_r="2.00" tint_min_g="2.00" tint_min_b="2.00" tint_min_a="1.00" tint_max_r="2.00" tint_max_g="2.00" tint_max_b="2.00" tint_max_a="1.00" particle_lifetime_bias_min="-50.00" particle_lifetime_bias_max="-50.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>	
+	<vfx inst_name="main" vfx_ref="belisarians_lib_chill_king_castle" scale_min="1.00" scale_max="1.00" pos_x="-6.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.80" start_time_max="0.80" infinite_life="false">
+		<emitter name="snow_ground_decal" enable="true" tint_min_r="2.00" tint_min_g="2.00" tint_min_b="2.00" tint_min_a="1.00" tint_max_r="2.00" tint_max_g="2.00" tint_max_b="2.00" tint_max_a="1.00" particle_lifetime_bias_min="-50.00" particle_lifetime_bias_max="-50.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>	
+
+	
+	<!-- inner gate smoke -->
+	<vfx inst_name="vfxref_2033" vfx_ref="belisarians_lib_chill_king_avalon_gates" scale_min="0.90" scale_max="0.90" pos_x="5.00" pos_y="0.00" pos_z="-1.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.00" start_time_max="1.00" infinite_life="true">
+		<emitter name="dust_pole" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+		<emitter name="dust_end" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2033" vfx_ref="belisarians_lib_chill_king_avalon_gates" scale_min="0.90" scale_max="0.90" pos_x="0.00" pos_y="0.00" pos_z="-1.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.00" start_time_max="1.00" infinite_life="true">
+		<emitter name="dust_pole" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+		<emitter name="dust_end" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2033" vfx_ref="belisarians_lib_chill_king_avalon_gates" scale_min="0.90" scale_max="0.90" pos_x="-5.00" pos_y="0.00" pos_z="-1.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.00" start_time_max="1.00" infinite_life="true">
+		<emitter name="dust_pole" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+		<emitter name="dust_end" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2033" vfx_ref="belisarians_lib_chill_king_avalon_gates" scale_min="0.90" scale_max="0.90" pos_x="5.00" pos_y="0.00" pos_z="5.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.00" start_time_max="1.00" infinite_life="true">
+		<emitter name="dust_pole" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+		<emitter name="dust_end" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2033" vfx_ref="belisarians_lib_chill_king_avalon_gates" scale_min="0.90" scale_max="0.90" pos_x="0.00" pos_y="0.00" pos_z="5.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.00" start_time_max="1.00" infinite_life="true">
+		<emitter name="dust_pole" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+		<emitter name="dust_end" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2033" vfx_ref="belisarians_lib_chill_king_avalon_gates" scale_min="0.90" scale_max="0.90" pos_x="-5.00" pos_y="0.00" pos_z="5.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.00" start_time_max="1.00" infinite_life="true">
+		<emitter name="dust_pole" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+		<emitter name="dust_end" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="6.00" emitter_lifetime_bias_max="6.00"/>
+	</vfx>
+	<!-- gate spawn smoke -->
+	<vfx inst_name="vfxref_2033" vfx_ref="belisarians_lib_chill_king_avalon_gates" scale_min="1.00" scale_max="1.00" pos_x="9.00" pos_y="0.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.00" start_time_max="1.00" infinite_life="true">
+		<emitter name="dust_pole" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.50" emitter_lifetime_bias_max="0.50"/>
+		<emitter name="dust_end" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.50" emitter_lifetime_bias_max="0.50"/>
+	</vfx>
+	<vfx inst_name="vfxref_2033" vfx_ref="belisarians_lib_chill_king_avalon_gates" scale_min="1.00" scale_max="1.00" pos_x="-9.00" pos_y="0.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.00" start_time_max="1.00" infinite_life="true">
+		<emitter name="dust_pole" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.50" emitter_lifetime_bias_max="0.50"/>
+		<emitter name="dust_end" enable="true" tint_min_r="38.90" tint_min_g="38.90" tint_min_b="38.90" tint_min_a="1.00" tint_max_r="38.90" tint_max_g="38.90" tint_max_b="38.90" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.50" emitter_lifetime_bias_max="0.50"/>
+	</vfx>
+	
+
+
+</vfx_references>

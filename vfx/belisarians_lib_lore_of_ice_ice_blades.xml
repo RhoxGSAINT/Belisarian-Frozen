@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="1" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters>
+		<emitter type="continuous_rigid" id="blade_01">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,20.0|x_max,16711680;0.0,20.0:x,1;0,1</property>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.27,0.00;1.0,100.00|x_max,16711680;0.27,0.00;1.0,100.00:x,1;0,1</property>
+			<property_event name="OnParticleDeath" quality="0" action="0" vfx_name="belisarians_lore_of_ice_exploding_blades"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes/wh_variantmodels/hu1d/hef/hef_props/loi_ice_blades_prince_sword_1h_01.wsmodel"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="0.00" z="90.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="0.00" z="90.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.003603,1.2|x_max,16711680;0.003603,1.2|y_min,32768;-0.001952,1.2|y_max,65280;-0.001952,1.2|z_min,128;-0.000001,1.2|z_max,255;-0.000001,1.2:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,-13.50|y_max,65280;0.0,-13.50|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="10.00" max="10.00"/>
+			<ranged_property name="StartTime" quality="0" min="0.75" max="0.75"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,0.55|x_max,16711680;0.0,0.55:x,0;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,2.0|x_max,16711680;0.0,2.0:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="true"/>
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+		</emitter>
+		<emitter type="continuous_rigid" id="blade_02">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,20.0|x_max,16711680;0.0,20.0:x,1;0,1</property>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.27,0.00;1.0,100.00|x_max,16711680;0.27,0.00;1.0,100.00:x,1;0,1</property>
+			<property_event name="OnParticleDeath" quality="0" action="0" vfx_name="belisarians_lore_of_ice_exploding_blades"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes/wh_variantmodels/hu1/brt/brt_props/loi_ice_blades_questing_knights_sword_2h_01.wsmodel"/>
+			<property name="EventEnable" quality="0" value="true"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="0.00" z="90.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="0.00" z="90.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.003603,1.2|x_max,16711680;0.003603,1.2|y_min,32768;-0.001952,1.2|y_max,65280;-0.001952,1.2|z_min,128;-0.000001,1.2|z_max,255;-0.000001,1.2:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,-13.50|y_max,65280;0.0,-13.50|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="10.00" max="10.00"/>
+			<ranged_property name="StartTime" quality="0" min="0.75" max="0.75"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,0.55|x_max,16711680;0.0,0.55:x,0;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,2.0|x_max,16711680;0.0,2.0:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="true"/>
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+		</emitter>
+		<emitter type="continuous_rigid" id="blade_03">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,20.0|x_max,16711680;0.0,20.0:x,1;0,1</property>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.27,0.00;1.0,100.00|x_max,16711680;0.27,0.00;1.0,100.00:x,1;0,1</property>
+			<property_event name="OnParticleDeath" quality="0" action="0" vfx_name="belisarians_lore_of_ice_exploding_blades"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes/wh_variantmodels/hu1d/hef/hef_props/loi_ice_blades_lothern_guard_spear_1h_01.wsmodel"/>
+			<property name="EventEnable" quality="0" value="true"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="0.00" z="90.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="0.00" z="90.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.003603,1.2|x_max,16711680;0.003603,1.2|y_min,32768;-0.001952,1.2|y_max,65280;-0.001952,1.2|z_min,128;-0.000001,1.2|z_max,255;-0.000001,1.2:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,-13.50|y_max,65280;0.0,-13.50|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="10.00" max="10.00"/>
+			<ranged_property name="StartTime" quality="0" min="0.75" max="0.75"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,0.55|x_max,16711680;0.0,0.55:x,0;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,2.0|x_max,16711680;0.0,2.0:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="true"/>
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+		</emitter>
+		<emitter type="continuous_rigid" id="blade_04">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,20.0|x_max,16711680;0.0,20.0:x,1;0,1</property>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.27,0.00;1.0,100.00|x_max,16711680;0.27,0.00;1.0,100.00:x,1;0,1</property>
+			<property_event name="OnParticleDeath" quality="0" action="0" vfx_name="belisarians_lore_of_ice_exploding_blades"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes/wh_variantmodels/hu1/brt/brt_props/loi_ice_blades_brt_spear.wsmodel"/>
+			<property name="EventEnable" quality="0" value="true"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="0.00" z="90.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="0.00" z="90.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.003603,1.2|x_max,16711680;0.003603,1.2|y_min,32768;-0.001952,1.2|y_max,65280;-0.001952,1.2|z_min,128;-0.000001,1.2|z_max,255;-0.000001,1.2:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,-13.50|y_max,65280;0.0,-13.50|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="10.00" max="10.00"/>
+			<ranged_property name="StartTime" quality="0" min="0.75" max="0.75"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,0.55|x_max,16711680;0.0,0.55:x,0;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,2.0|x_max,16711680;0.0,2.0:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="true"/>
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+		</emitter>
+		<emitter type="continuous_rigid" id="summoning_circle">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.6,0.00;1.0,100.00|x_max,16711680;0.6,0.00;1.0,100.00:x,1;0,1</property>
+			<property name="RigidModelFile" quality="0" value="vfx/models/chill_king_eternal_winter_magic_circle_03_small.wsmodel"/>
+			<property name="EventEnable" quality="0" value="true"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="0.00" z="0.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="0.00" z="0.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|x_max,16711680;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|y_min,32768;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|y_max,65280;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|z_min,128;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|z_max,255;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,-13.50|y_max,65280;0.0,-13.50|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<ranged_property name="StartTime" quality="0" min="0.00" max="0.00"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,13.0|x_max,16711680;0.0,13.0:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="true"/>
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+		</emitter>		
+	</emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains>
+		<behaviour_chain id="blade_01">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="blade_02">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="blade_03">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="blade_04">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="summoning_circle">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>		
+	</behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks>
+		<effect_render_stack id="blade_01">
+			<emitters_selected>
+				<emitter id="blade_01"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="blade_01"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="blade_02">
+			<emitters_selected>
+				<emitter id="blade_02"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="blade_02"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="blade_03">
+			<emitters_selected>
+				<emitter id="blade_03"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="blade_03"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="blade_04">
+			<emitters_selected>
+				<emitter id="blade_04"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="blade_04"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="summoning_circle">
+			<emitters_selected>
+				<emitter id="summoning_circle"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="summoning_circle"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+	</effect_render_stacks>
+</vfx><vfx_references></vfx_references>

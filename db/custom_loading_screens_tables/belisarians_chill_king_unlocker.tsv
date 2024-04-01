@@ -1,0 +1,4 @@
+key	layout_name	should_fade_to_black
+#custom_loading_screens_tables;1;db/custom_loading_screens_tables/belisarians_chill_king_unlocker		
+brt_frozen_order	custom_loading_screen	true
+brt_vor_frozen_order	custom_loading_screen	true

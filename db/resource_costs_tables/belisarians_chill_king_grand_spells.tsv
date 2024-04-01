@@ -1,0 +1,3 @@
+id	treasury_cost	expenditure_type	income_type	expenditure_type_when_regular	income_type_when_regular
+#resource_costs_tables;0;db/resource_costs_tables/belisarians_chill_king_grand_spells					
+wh2_resource_cost_brt_capture_ice	0	ACTIONS	BATTLE_KILLS	ARMY_UPKEEP	BACKGROUND_INCOME

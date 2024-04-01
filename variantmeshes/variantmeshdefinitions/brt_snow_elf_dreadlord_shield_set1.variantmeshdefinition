@@ -1,0 +1,10 @@
+<VARIANT_MESH>
+	<SLOT name="spear" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/brt_snow_elf_dreadlord_shield_01.wsmodel"  >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/brt_snow_elf_dreadlord_shield_03.wsmodel"  >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/brt_snow_elf_dreadlord_shield_04.wsmodel"  >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_shield_type:metal</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>

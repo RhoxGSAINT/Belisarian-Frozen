@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_unlocker_effect_bundles__.loc		
+effect_bundles_localised_title_wh2_main_lord_trait_brt_frozen_order	Frozen Kingdom	true
+effect_bundles_localised_description_wh2_main_lord_trait_brt_frozen_order	Frozen Kingdom is place of frost magic, which is maybe not "ideal" for farming as freezing of enemy army can also mean freezing of our crops, but ice spells are strong, espesially up here in the North.Just beware that Bretonnian nobles might not be happy about you "liberating" Albion in their stead.	true
+effects_description_wh2_effect_draconic_units_chill_dummy	Enables recruitment of Draconic units	true
+effects_description_wh2_effect_grand_magic_chill_dummy	Adds Eternal Ice, resource used for casting Grand army spells	true

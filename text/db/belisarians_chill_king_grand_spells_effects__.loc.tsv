@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_grand_spells_effects__.loc		
+effects_description_wh2_ability_enable_eternal_winter	Army ability: "Eternal Winter"	true
+effects_description_wh2_ability_enable_gates_of_avalon	Army ability: "Gate of Avalon"	true
+effects_description_wh2_ability_enable_freeze_beam	Army ability: "Freezing Beam"	true

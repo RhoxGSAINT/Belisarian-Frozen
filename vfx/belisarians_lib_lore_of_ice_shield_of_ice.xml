@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="1" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters>
+		<emitter type="continuous_rigid" id="blade_01">
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes/wh_variantmodels/hu1/brt/brt_props/shield_lore_of_ice.wsmodel"/>
+			<property name="ParticleSpinMin" quality="0" x="0.00" y="20.00" z="0.00"/>
+			<property name="ParticleSpinMax" quality="0" x="0.00" y="20.00" z="0.00"/>
+			<property name="ParticleScale" quality="0">x_min,8405056;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|x_max,16728128;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|y_min,4227136;0.0,0.0,linear,linear;0.05,0.55,linear,linear;0.95,0.55,linear,linear;1.0,0.0,linear,linear|y_max,4259648;0.0,0.0,linear,linear;0.05,0.55,linear,linear;0.95,0.55,linear,linear;1.0,0.0,linear,linear|z_min,4210816;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|z_max,4210943;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="SpreadMethod" quality="0" value="false"/>
+			<property name="EmitterPosition" quality="0">x_min,8405056;0.0,0.0,linear,linear|x_max,16728128;0.0,0.0,linear,linear|y_min,4227136;0.0,0.0,linear,linear|y_max,4259648;0.0,0.0,linear,linear|z_min,4210816;0.0,0.0,linear,linear|z_max,4210943;0.0,0.0,linear,linear:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="StartTime" quality="0" min="0.00" max="0.00"/>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<property name="RigidsMax" quality="0" value="1"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8405056;0.0,10.0,linear,linear|x_max,16728128;0.0,10.0,linear,linear:x,1;0,1</property>
+			<property name="ParticleLifeTime" quality="0">x_min,8405056;0.0,28.0,linear,linear|x_max,16728128;0.0,28.0,linear,linear:x,1;0,1</property>
+			<property name="ParticleOrientationMin" quality="0" x="-90.00" y="0.00" z="0.00"/>
+			<property name="ParticleOrientationMax" quality="0" x="-90.00" y="0.00" z="0.00"/>			
+		</emitter>
+		<emitter type="continuous_rigid" id="blade_02">
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes/wh_variantmodels/hu1/brt/brt_props/shield_lore_of_ice.wsmodel"/>
+			<property name="ParticleSpinMin" quality="0" x="0.00" y="20.00" z="0.00"/>
+			<property name="ParticleSpinMax" quality="0" x="0.00" y="20.00" z="0.00"/>
+			<property name="ParticleScale" quality="0">x_min,8405056;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|x_max,16728128;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|y_min,4227136;0.0,0.0,linear,linear;0.05,0.55,linear,linear;0.95,0.55,linear,linear;1.0,0.0,linear,linear|y_max,4259648;0.0,0.0,linear,linear;0.05,0.55,linear,linear;0.95,0.55,linear,linear;1.0,0.0,linear,linear|z_min,4210816;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|z_max,4210943;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="SpreadMethod" quality="0" value="false"/>
+			<property name="EmitterPosition" quality="0">x_min,8405056;0.0,0.0,linear,linear|x_max,16728128;0.0,0.0,linear,linear|y_min,4227136;0.0,0.0,linear,linear|y_max,4259648;0.0,0.0,linear,linear|z_min,4210816;0.0,0.0,linear,linear|z_max,4210943;0.0,0.0,linear,linear:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="StartTime" quality="0" min="0.00" max="0.00"/>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<property name="RigidsMax" quality="0" value="1"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8405056;0.0,10.0,linear,linear|x_max,16728128;0.0,10.0,linear,linear:x,1;0,1</property>
+			<property name="ParticleLifeTime" quality="0">x_min,8405056;0.0,28.0,linear,linear|x_max,16728128;0.0,28.0,linear,linear:x,1;0,1</property>
+			<property name="ParticleOrientationMin" quality="0" x="-90.00" y="120.00" z="0.00"/>
+			<property name="ParticleOrientationMax" quality="0" x="-90.00" y="120.00" z="0.00"/>
+		</emitter>
+		<emitter type="continuous_rigid" id="blade_03">
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes/wh_variantmodels/hu1/brt/brt_props/shield_lore_of_ice.wsmodel"/>
+			<property name="ParticleSpinMin" quality="0" x="0.00" y="20.00" z="0.00"/>
+			<property name="ParticleSpinMax" quality="0" x="0.00" y="20.00" z="0.00"/>
+			<property name="ParticleScale" quality="0">x_min,8405056;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|x_max,16728128;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|y_min,4227136;0.0,0.0,linear,linear;0.05,0.55,linear,linear;0.95,0.55,linear,linear;1.0,0.0,linear,linear|y_max,4259648;0.0,0.0,linear,linear;0.05,0.55,linear,linear;0.95,0.55,linear,linear;1.0,0.0,linear,linear|z_min,4210816;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear|z_max,4210943;0.0,0.0,linear,linear;0.05,1.0,linear,linear;0.95,1.0,linear,linear;1.0,0.0,linear,linear:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="SpreadMethod" quality="0" value="false"/>
+			<property name="EmitterPosition" quality="0">x_min,8405056;0.0,0.0,linear,linear|x_max,16728128;0.0,0.0,linear,linear|y_min,4227136;0.0,0.0,linear,linear|y_max,4259648;0.0,0.0,linear,linear|z_min,4210816;0.0,0.0,linear,linear|z_max,4210943;0.0,0.0,linear,linear:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="StartTime" quality="0" min="0.00" max="0.00"/>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<property name="RigidsMax" quality="0" value="1"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8405056;0.0,10.0,linear,linear|x_max,16728128;0.0,10.0,linear,linear:x,1;0,1</property>
+			<property name="ParticleLifeTime" quality="0">x_min,8405056;0.0,28.0,linear,linear|x_max,16728128;0.0,28.0,linear,linear:x,1;0,1</property>
+			<property name="ParticleOrientationMin" quality="0" x="-90.00" y="240.00" z="0.00"/>
+			<property name="ParticleOrientationMax" quality="0" x="-90.00" y="240.00" z="0.00"/>
+		</emitter>
+	</emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains>
+		<behaviour_chain id="blade_01">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="blade_02">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="blade_03">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="blade_04">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="summoning_circle">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="BUFF_ward_save">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.0,0.0;0.198199,1.0;1.0,0.0;0.802824,1.0|alpha_max,16711680;0.0,0.0;0.198199,1.0;1.0,0.0;0.802824,1.0:alpha,0;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="BUFF_energy_cylinder">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.0,0.0;0.2,0.784754;0.821726,0.060338;1.0,0.0;0.409101,0.415877;0.286735,0.685562;0.596449,0.195195|alpha_max,16711680;0.0,0.0;0.2,0.784754;0.821726,0.060338;1.0,0.0;0.409101,0.415877;0.286735,0.685562;0.596449,0.195195:alpha,0;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="BUFF_missile_spikes">
+			<modifier fragment="vs_translation_velocity_v2">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.0"/>
+				<property name="velocity_stretch_mul" type="curve">x_min,8388608;0.0,0.898305;1.007605,1.898306|x_max,16711680;0.0,0.898305;1.007605,1.898306:x,0;0,1</property>
+				<property name="orientation_mode" type="int" value="2"/>
+			</modifier>
+			<modifier fragment="vs_rendersize_limiter">
+				<property name="pixelsize_limit" type="float" value="2.0"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(0.0,0.0,0.0,1.0)" max="float4(0.0,0.0,0.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(0.5,0.5,0.5,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(0.0,0.0,0.0,1.0)" max="float4(0.0,0.0,0.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="0.50"/>
+			</modifier>
+			<modifier fragment="vs_cell_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="2"/>
+				<property name="atlas_number_of_cells_y" type="int" value="4"/>
+				<property name="atlas_cell" type="int" value="2"/>
+				<property name="number_of_cells_x" type="int" value="4"/>
+				<property name="number_of_cells_y" type="int" value="1"/>
+				<property name="cell" type="int" value="1"/>
+				<property name="randomize_cell" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.0,0.0;1.0,0.0;0.196198,0.637925;0.283122,0.351367;0.402904,0.163656;0.577133,0.040083;0.803907,0.001727|alpha_max,16711680;0.0,0.0;1.0,0.0;0.2,1.0;0.283122,0.705021;0.402904,0.424686;0.577133,0.211297;0.805808,0.060669:alpha,1;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/misc_cells_A_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="0.0"/>
+				<property name="small_particles" type="float" value="0.01"/>
+				<property name="large_particles" type="float" value="0.0"/>
+				<property name="directionality" type="float" value="1.0"/>
+				<property name="emissive" type="float" value="5.0"/>
+				<property name="average_size" type="float" value="0.0"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="BUFF_cursed_blades_attack">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="DEBUFF_sand_down">
+			<modifier fragment="vs_translation_velocity_v2">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="velocity_stretch_mul" type="curve">x_min,8388608;0.0,0.6|x_max,16711680;0.0,0.6:x,0;0,1</property>
+				<property name="orientation_mode" type="int" value="5"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.67451,0.607843,0.541176,1.0)" max="float4(0.333333,0.223529,0.129412,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_animated_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="1"/>
+				<property name="atlas_number_of_cells_y" type="int" value="1"/>
+				<property name="atlas_cell" type="int" value="0"/>
+				<property name="cell_blend" type="bool" value="true"/>
+				<property name="no_cells_xy" type="float2" value="float2(8.0,8.0)"/>
+				<property name="randomize_cell" type="bool" value="false"/>
+				<property name="loop" type="bool" value="false"/>
+				<property name="no_loops" type="float2" value="float2(1.0,1.0)"/>
+				<property name="row_restricted" type="bool" value="false"/>
+				<property name="row_restriction" type="int" value="0"/>
+				<property name="randomize_row" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.26666,0.85282;0.892895,0.188872;0.68618,0.478838;0.471937,0.803318;0.999119,-0.001349;0.0,0.0|alpha_max,16711680;0.26666,0.995335;0.896498,0.216018;0.698792,0.524081;0.471937,0.896065;0.999119,-0.001349;0.0,0.0:alpha,1;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/dust_v1_anim_diffuse.dds"/>
+				<texture_property name="normal" type="file" path="vfx/Textures/dust_v1_anim_normal.dds"/>
+				<property name="overlay_colour" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="ps_normal"/>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="0.0"/>
+				<property name="small_particles" type="float" value="1.0"/>
+				<property name="large_particles" type="float" value="0.0"/>
+				<property name="directionality" type="float" value="0.5"/>
+				<property name="emissive" type="float" value="0.5"/>
+				<property name="average_size" type="float" value="0.5"/>
+			</modifier>
+			<modifier fragment="ps_soft_edge">
+				<property name="soft_factor" type="float" value="0.8"/>
+				<property name="depth_bias" type="float" value="0.0"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="DEBUFF_damage_sand">
+			<modifier fragment="vs_translation_velocity_v2">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="velocity_stretch_mul" type="curve">x_min,8388608;0.0,0.2|x_max,16711680;0.0,0.2:x,0;0,1</property>
+				<property name="orientation_mode" type="int" value="2"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(0.203922,0.203922,0.203922,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_animated_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="1"/>
+				<property name="atlas_number_of_cells_y" type="int" value="1"/>
+				<property name="atlas_cell" type="int" value="0"/>
+				<property name="cell_blend" type="bool" value="true"/>
+				<property name="no_cells_xy" type="float2" value="float2(8.0,8.0)"/>
+				<property name="randomize_cell" type="bool" value="false"/>
+				<property name="loop" type="bool" value="false"/>
+				<property name="no_loops" type="float2" value="float2(1.0,1.0)"/>
+				<property name="row_restricted" type="bool" value="false"/>
+				<property name="row_restriction" type="int" value="0"/>
+				<property name="randomize_row" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,0.0;1.0,0.0;0.3,1.3;0.7,1.3|alpha_max,16711680;0.001802,0.0;1.0,0.0;0.3,1.3;0.7,1.3:alpha,0;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/dust_v1_anim_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="0.0"/>
+				<property name="small_particles" type="float" value="1.0"/>
+				<property name="large_particles" type="float" value="0.5"/>
+				<property name="directionality" type="float" value="0.4"/>
+				<property name="emissive" type="float" value="0.0"/>
+				<property name="average_size" type="float" value="0.6"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="DEBUFF_desiccation">
+			<modifier fragment="vs_translation_velocity_v2">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.9"/>
+				<property name="velocity_stretch_mul" type="curve">x_min,8388608;0.0,0.1|x_max,16711680;0.0,0.1:x,0;0,1</property>
+				<property name="orientation_mode" type="int" value="2"/>
+			</modifier>
+			<modifier fragment="vs_rendersize_limiter">
+				<property name="pixelsize_limit" type="float" value="3.0"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.5,0.5,0.5,1.0)" max="float4(0.4,0.4,0.4,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_cell_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="16"/>
+				<property name="atlas_number_of_cells_y" type="int" value="16"/>
+				<property name="atlas_cell" type="int" value="66"/>
+				<property name="number_of_cells_x" type="int" value="2"/>
+				<property name="number_of_cells_y" type="int" value="1"/>
+				<property name="cell" type="int" value="1"/>
+				<property name="randomize_cell" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.0,0.0;0.5,0.75;1.0,-0.0|alpha_max,16711680;0.0,0.0;0.5,1.0;1.0,0.0:alpha,1;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/generic_cells_B_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="true"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="1.0"/>
+				<property name="small_particles" type="float" value="0.01"/>
+				<property name="large_particles" type="float" value="0.0"/>
+				<property name="directionality" type="float" value="0.5"/>
+				<property name="emissive" type="float" value="0.0"/>
+				<property name="average_size" type="float" value="0.5"/>
+			</modifier>
+			<modifier fragment="ps_soft_edge">
+				<property name="depth_bias" type="float" value="0.5"/>
+				<property name="soft_factor" type="float" value="0.5"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="HIDE_sand_fall">
+			<modifier fragment="vs_translation_velocity_v2">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="velocity_stretch_mul" type="curve">x_min,8388608;0.0,0.6|x_max,16711680;0.0,0.6:x,0;0,1</property>
+				<property name="orientation_mode" type="int" value="5"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(0.0,0.0,0.0,1.0)" max="float4(0.0,0.0,0.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="0.50"/>
+			</modifier>
+			<modifier fragment="vs_animated_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="1"/>
+				<property name="atlas_number_of_cells_y" type="int" value="1"/>
+				<property name="atlas_cell" type="int" value="0"/>
+				<property name="cell_blend" type="bool" value="true"/>
+				<property name="no_cells_xy" type="float2" value="float2(8.0,8.0)"/>
+				<property name="randomize_cell" type="bool" value="true"/>
+				<property name="loop" type="bool" value="true"/>
+				<property name="no_loops" type="float2" value="float2(1.0,1.0)"/>
+				<property name="row_restricted" type="bool" value="false"/>
+				<property name="row_restriction" type="int" value="0"/>
+				<property name="randomize_row" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.0,0.0;0.199999,0.64834;1.0,0.0;0.603603,0.64834|alpha_max,16711680;0.0,0.0;0.199999,0.89834;1.0,0.0;0.603603,0.89834:alpha,1;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/dust_v1_anim_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="0.0"/>
+				<property name="small_particles" type="float" value="0.01"/>
+				<property name="large_particles" type="float" value="0.0"/>
+				<property name="directionality" type="float" value="0.5"/>
+				<property name="emissive" type="float" value="1.1"/>
+				<property name="average_size" type="float" value="0.5"/>
+			</modifier>
+			<modifier fragment="ps_soft_edge">
+				<property name="soft_factor" type="float" value="1.5"/>
+				<property name="depth_bias" type="float" value="1.0"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="DEBUFF_damage_flies">
+			<modifier fragment="vs_translation_velocity_v2">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="velocity_stretch_mul" type="curve">x_min,8388608;0.0,0.1|x_max,16711680;0.0,0.1:x,0;0,1</property>
+				<property name="orientation_mode" type="int" value="2"/>
+			</modifier>
+			<modifier fragment="vs_rendersize_limiter">
+				<property name="pixelsize_limit" type="float" value="4.0"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.0,0.0,0.0,1.0)" max="float4(0.0,0.0,0.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_cell_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="8"/>
+				<property name="atlas_number_of_cells_y" type="int" value="8"/>
+				<property name="atlas_cell" type="int" value="8"/>
+				<property name="number_of_cells_x" type="int" value="4"/>
+				<property name="number_of_cells_y" type="int" value="2"/>
+				<property name="cell" type="int" value="4"/>
+				<property name="randomize_cell" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,0.0;1.0,0.0;0.3,1.3;0.7,1.3|alpha_max,16711680;0.001802,0.0;1.0,0.0;0.3,1.3;0.7,1.3:alpha,0;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/generic_cells_B_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="3.0"/>
+				<property name="small_particles" type="float" value="5.0"/>
+				<property name="large_particles" type="float" value="0.5"/>
+				<property name="directionality" type="float" value="0.4"/>
+				<property name="emissive" type="float" value="0.0"/>
+				<property name="average_size" type="float" value="0.6"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="dust_end">
+			<modifier fragment="vs_translation">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="restriction" type="int" value="0"/>
+			</modifier>
+			<modifier fragment="vs_rendersize_limiter">
+				<property name="pixelsize_limit" type="float" value="5.0"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(0.3,0.55,0.9,1.0)" max="float4(0.3,0.55,0.9,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.3,0.55,0.9,1.0)" max="float4(0.3,0.55,0.9,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(0.3,0.55,0.9,1.0)" max="float4(0.3,0.55,0.9,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_animated_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="8"/>
+				<property name="atlas_number_of_cells_y" type="int" value="8"/>
+				<property name="atlas_cell" type="int" value="38"/>
+				<property name="cell_blend" type="bool" value="true"/>
+				<property name="no_cells_xy" type="float2" value="float2(2.0,2.0)"/>
+				<property name="randomize_cell" type="bool" value="true"/>
+				<property name="loop" type="bool" value="true"/>
+				<property name="no_loops" type="float2" value="float2(1.0,1.2)"/>
+				<property name="row_restricted" type="bool" value="false"/>
+				<property name="row_restriction" type="int" value="0"/>
+				<property name="randomize_row" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.201802,1.0,linear,linear;0.6,1.0,linear,linear;1.0,0.0,linear,linear;0.003604,0.0,linear,linear|alpha_max,16711680;0.201802,1.0,linear,linear;0.6,1.0,linear,linear;1.0,0.0,linear,linear;0.003604,0.0,linear,linear:alpha,0;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/misc_cells_A_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="1.0"/>
+				<property name="small_particles" type="float" value="0.1"/>
+				<property name="large_particles" type="float" value="0.0"/>
+				<property name="directionality" type="float" value="0.0"/>
+				<property name="emissive" type="float" value="0.0"/>
+				<property name="average_size" type="float" value="0.0"/>
+			</modifier>
+			<modifier fragment="ps_soft_edge">
+				<property name="soft_factor" type="float" value="1.5"/>
+				<property name="depth_bias" type="float" value="0.0"/>
+			</modifier>
+		</behaviour_chain>
+	</behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks>
+		<effect_render_stack id="blade_01">
+			<emitters_selected>
+				<emitter id="blade_01"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="blade_01"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="blade_02">
+			<emitters_selected>
+				<emitter id="blade_02"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="blade_02"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="blade_03">
+			<emitters_selected>
+				<emitter id="blade_03"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="blade_03"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="blade_04">
+			<emitters_selected>
+				<emitter id="blade_04"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="blade_04"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="summoning_circle">
+			<emitters_selected>
+				<emitter id="summoning_circle"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="summoning_circle"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="BUFF_ward_save">
+			<emitters_selected>
+				<emitter id="BUFF_ward_save"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="BUFF_ward_save"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="BUFF_energy_cylinder">
+			<emitters_selected>
+				<emitter id="BUFF_energy_cylinder"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="BUFF_energy_cylinder"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="BUFF_missile_spikes">
+			<emitters_selected>
+				<emitter id="BUFF_missile_spikes"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="BUFF_missile_spikes"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="true"/>
+		</effect_render_stack>
+		<effect_render_stack id="BUFF_cursed_blades_attack">
+			<emitters_selected>
+				<emitter id="BUFF_cursed_blades_attack"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="BUFF_cursed_blades_attack"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="DEBUFF_sand_down">
+			<emitters_selected>
+				<emitter id="DEBUFF_sand_down"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="DEBUFF_sand_down"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="true"/>
+		</effect_render_stack>
+		<effect_render_stack id="DEBUFF_damage_sand">
+			<emitters_selected>
+				<emitter id="DEBUFF_damage_sand"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="DEBUFF_damage_sand"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="DEBUFF_desiccation">
+			<emitters_selected>
+				<emitter id="DEBUFF_desiccation"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="DEBUFF_desiccation"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="HIDE_sand_fall">
+			<emitters_selected>
+				<emitter id="HIDE_sand_fall"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="HIDE_sand_fall"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="true"/>
+		</effect_render_stack>
+		<effect_render_stack id="DEBUFF_damage_flies">
+			<emitters_selected>
+				<emitter id="DEBUFF_damage_flies"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="DEBUFF_damage_flies"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="dust_end">
+			<emitters_selected>
+				<emitter id="dust_end"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="dust_end"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+	</effect_render_stacks>
+</vfx><vfx_references></vfx_references>

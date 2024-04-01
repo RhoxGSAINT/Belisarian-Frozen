@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_campaign_effect_scopes__.loc		
+campaign_effect_scopes_localised_text_character_to_force_own_factionwide_own	\\n(all own armies in owned regions)	true
+campaign_effect_scopes_localised_text_character_to_force_own_factionwide_enemy	\\n(all own armies in enemy regions)	true

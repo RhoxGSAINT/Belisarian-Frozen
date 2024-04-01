@@ -1,0 +1,5 @@
+key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_colour_hex	tertiary_colour_hex
+#unit_variants_colours_tables;3;db/unit_variants_colours_tables/belisarians_chill_king_units_snowmen							
+504747432	mixer_brt_uprising	soldier	wh_main_brt_inf_cute_snowmen_shield		000000	000000	000000
+504747433	mixer_brt_uprising	soldier	wh_main_brt_inf_cute_snowmen_halb		000000	000000	000000
+504747434	mixer_brt_uprising	soldier	wh_main_brt_inf_cute_snowmen_axe		000000	000000	000000

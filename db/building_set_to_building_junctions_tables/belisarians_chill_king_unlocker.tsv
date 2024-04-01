@@ -1,0 +1,4 @@
+building_chain	building_level	building_set	exclude
+#building_set_to_building_junctions_tables;0;db/building_set_to_building_junctions_tables/belisarians_chill_king_unlocker			
+wh_main_BRETONNIA_ice_castle		wh_main_set_vampire_military_support	false
+wh_main_BRETONNIA_ice_tower		wh_main_set_vampire_military_support	false

@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="2" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="90.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="180.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="270.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>	
+	
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="125.00" rot_y="45.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="125.00" rot_y="135.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="125.00" rot_y="225.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="125.00" rot_y="315.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="135.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="135.00" rot_y="90.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="135.00" rot_y="180.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="135.00" rot_y="270.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="145.00" rot_y="45.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="145.00" rot_y="135.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="145.00" rot_y="225.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="145.00" rot_y="315.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="155.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="155.00" rot_y="90.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="155.00" rot_y="180.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="155.00" rot_y="270.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="165.00" rot_y="45.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="165.00" rot_y="135.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="165.00" rot_y="225.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="165.00" rot_y="315.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="175.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="175.00" rot_y="90.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="175.00" rot_y="180.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="175.00" rot_y="270.00" rot_z="0.00" start_time_min="0.00" start_time_max="3.00" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	
+	
+	
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	
+
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="20.00" rot_z="0.00" start_time_min="0.10" start_time_max="0.10" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="40.00" rot_z="0.00" start_time_min="0.20" start_time_max="0.20" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="60.00" rot_z="0.00" start_time_min="0.30" start_time_max="0.30" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="80.00" rot_z="0.00" start_time_min="0.40" start_time_max="0.40" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="100.00" rot_z="0.00" start_time_min="0.50" start_time_max="0.50" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="120.00" rot_z="0.00" start_time_min="0.60" start_time_max="0.60" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="140.00" rot_z="0.00" start_time_min="0.70" start_time_max="0.70" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="160.00" rot_z="0.00" start_time_min="0.80" start_time_max="0.80" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="180.00" rot_z="0.00" start_time_min="0.90" start_time_max="0.90" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="200.00" rot_z="0.00" start_time_min="1.00" start_time_max="1.00" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="220.00" rot_z="0.00" start_time_min="1.10" start_time_max="1.10" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="240.00" rot_z="0.00" start_time_min="1.20" start_time_max="1.20" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="260.00" rot_z="0.00" start_time_min="1.30" start_time_max="1.30" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="280.00" rot_z="0.00" start_time_min="1.40" start_time_max="1.40" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="300.00" rot_z="0.00" start_time_min="1.50" start_time_max="1.50" infinite_life="true">
+		<emitter name="blade_02" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="320.00" rot_z="0.00" start_time_min="1.60" start_time_max="1.60" infinite_life="true">
+		<emitter name="blade_03" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_lore_of_ice_ice_blades" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="115.00" rot_y="340.00" rot_z="0.00" start_time_min="1.70" start_time_max="1.70" infinite_life="true">
+		<emitter name="blade_04" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	
+	
+	
+</vfx_references>

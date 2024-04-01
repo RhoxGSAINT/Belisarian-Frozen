@@ -1,0 +1,4 @@
+key	location	ownership	source	target	territory
+#campaign_effect_scopes_tables;2;db/campaign_effect_scopes_tables/belisarians_chill_king					
+character_to_force_own_factionwide_own	factionwide	yours	character	force	yours
+character_to_force_own_factionwide_enemy	factionwide	yours	character	force	enemy

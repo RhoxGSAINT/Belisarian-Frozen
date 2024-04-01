@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="1" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters>
+		<emitter type="continuous_mesh" id="sparks_bright_turbulent">
+			<property name="BoundingBoxMin" quality="0" x="-10.00" y="0.00" z="-10.00"/>
+			<property name="BoundingBoxMax" quality="0" x="10.00" y="10.00" z="10.00"/>
+			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="300.00" w="300.00"/>
+			<property name="ParticleCullDistances" quality="0" x="1.50" y="5.00" z="75.00" w="300.00"/>
+			<property name="EffectedByWindFactor" quality="0" value="1.00"/>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.001815,2.0;0.99274,12.186067|x_max,16711680;0.0,4.0;0.994555,13.650501:x,1;0,1</property>
+			<ranged_property name="GravityAmount" quality="0" min="10.00" max="20.00"/>
+			<property name="VectorFieldStrengthStart" quality="0" value="0.70"/>
+			<property name="VectorFieldStrengthEnd" quality="0" value="0.10"/>
+			<property name="VectorFieldSize" quality="0" value="10.00"/>
+			<property name="VectorFieldStrId" quality="0" value="vfx/vectorfields/00_turbulence_8_xyz.dds"/>
+			<property name="EnableCollisions" quality="0" value="true"/>
+			<ranged_property name="SpreadArc" quality="0" min="-180.00" max="-90.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;-0.005405,0.2|x_max,16711680;0.001802,0.5|y_min,32768;-0.007207,0.2|y_max,65280;-0.003604,0.5|z_min,128;0.001802,0.0|z_max,255;0.001802,0.0:x,1;0,1|y,1;2,3|z,0;4,5</property>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.1;0.998185,0.007615|x_max,16711680;0.0,0.465398;0.998185,0.007615:x,1;0,1</property>
+			<ranged_property name="SpawnSpread" quality="0" min="0.00" max="0.00"/>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,2.0|y_max,65280;0.0,2.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="SpawnAreaCurve" quality="0">inner_radius_min,8388608;0.0,2.0|inner_radius_max,16711680;0.0,2.0|outer_radius_min,32768;0.0,3.0|outer_radius_max,65280;0.0,3.0:inner_radius,0;0,1|outer_radius,0;2,3</property>
+			<property name="SpawnAreaBox" quality="0">x_min,8388608;0.001815,5.0|x_max,16711680;0.001815,5.0|y_min,32768;0.003604,8.0|y_max,65280;0.0,7.0|z_min,128|z_max,255:x,0;0,1|y,1;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="15.00" max="15.00"/>
+			<property name="AllowEmitFromMesh" quality="0" value="false"/>
+			<property name="UseSurfaceNormal" quality="0" value="false"/>
+			<property name="ParticleInitialScale" quality="0">x_min,8388608;0.0,0.5|x_max,16711680;0.0,0.5|y_min,32768;0.0,0.5|y_max,65280;0.0,0.5|z_min,128;0.0,0.5|z_max,255;0.0,0.5:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.009036,14250.673462;1.00363,2240.686188|x_max,16711680;0.009036,16250.673462;1.0,4090.456055:x,1;0,1</property>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,4.0|x_max,16711680;0.0,5.0:x,1;0,1</property>
+			<property name="CullDistances" quality="1" x="0.00" y="0.00" z="200.00" w="200.00"/>
+			<property name="ParticleCullDistances" quality="1" x="1.50" y="5.00" z="75.00" w="200.00"/>
+			<property name="Enable" quality="2" value="false"/>
+		</emitter>
+		<emitter type="continuous_rigid" id="snowman_01">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,1;0,1</property>
+			<!-- <property name="RigidModelFile" quality="0" value="vfx/models/wh2_campaign_astromancy_paralax.wsmodel"/> -->
+			<!-- <property name="RigidModelFile" quality="0" value="vfx/models/lore_of_ice_snowman.wsmodel"/> -->
+			<property name="RigidModelFile" quality="0" value="vfx/models/urgat_snowman2_bottom.rigid_model_v2"/>
+			<property name="RigidAnimFile" quality="0" value="animations/skeletons/humanoid01.anim"/>
+			<property name="EventEnable" quality="0" value="true"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.003603,1.0|x_max,16711680;0.003603,1.0|y_min,32768;-0.001952,1.0|y_max,65280;-0.001952,1.0|z_min,128;-0.000001,1.0|z_max,255;-0.000001,1.0:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<!-- <property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,0.0|y_max,65280;0.0,0.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property> -->
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,0.0|y_max,65280;0.0,0.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<ranged_property name="StartTime" quality="0" min="0.00" max="0.00"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.00:x,0;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,2.97|x_max,16711680;0.0,2.97:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="true"/>
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+			<property name="ParticleSpinMax" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleSpinMin" quality="0" x="0.00" y="180.00" z="0.00"/>
+		</emitter>
+		<emitter type="continuous_rigid" id="snowman_02">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,1;0,1</property>
+			<!-- <property name="RigidModelFile" quality="0" value="vfx/models/magic_sphere_fade.wsmodel"/> -->
+			<property name="RigidModelFile" quality="0" value="vfx/models/urgat_snowman2_top.rigid_model_v2"/>
+			<property name="RigidAnimFile" quality="0" value="animations/skeletons/humanoid01.anim"/>
+			<property name="EventEnable" quality="0" value="true"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.003603,1.0|x_max,16711680;0.003603,1.0|y_min,32768;-0.001952,1.0|y_max,65280;-0.001952,1.0|z_min,128;-0.000001,1.0|z_max,255;-0.000001,1.0:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,0.0|y_max,65280;0.0,0.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<ranged_property name="StartTime" quality="0" min="0.00" max="0.00"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.00:x,0;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,2.97|x_max,16711680;0.0,2.97:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="true"/>
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+		</emitter>
+		<emitter type="continuous_rigid" id="snowman_03">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,-0.3|x_max,16711680;0.0,-0.3:x,1;0,1</property>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<!-- <property name="RigidModelFile" quality="0" value="vfx/models/wh2_campaign_astromancy_paralax.wsmodel"/> -->
+			<!-- <property name="RigidModelFile" quality="0" value="vfx/models/lore_of_ice_snowman.wsmodel"/> -->
+			<property name="RigidModelFile" quality="0" value="vfx/models/urgat_snowman2_bottom.rigid_model_v2"/>
+			<property name="RigidAnimFile" quality="0" value="animations/skeletons/humanoid01.anim"/>
+			<property name="EventEnable" quality="0" value="true"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.0,1.0,linear,linear;1.0,0.5,linear,linear|x_max,16711680;0.0,1.0,linear,linear;1.0,0.5,linear,linear|y_min,32768;0.0,1.0,linear,linear;1.0,0.5,linear,linear|y_max,65280;0.0,1.0,linear,linear;1.0,0.5,linear,linear|z_min,128;0.0,1.0,linear,linear;1.0,0.5,linear,linear|z_max,255;0.0,1.0,linear,linear;1.0,0.5,linear,linear:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,0.0|y_max,65280;0.0,0.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<ranged_property name="StartTime" quality="0" min="2.95" max="2.95"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.00:x,0;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="true"/>
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+			<property name="ParticleSpinMax" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleSpinMin" quality="0" x="0.00" y="180.00" z="0.00"/>
+		</emitter>
+		<emitter type="continuous_rigid" id="snowman_04">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,1;0,1</property>
+			<!-- <property name="RigidModelFile" quality="0" value="vfx/models/magic_sphere_fade.wsmodel"/> -->
+			<property name="RigidModelFile" quality="0" value="vfx/models/urgat_snowman2_top.rigid_model_v2"/>
+			<property name="RigidAnimFile" quality="0" value="animations/skeletons/humanoid01.anim"/>
+			<property name="EventEnable" quality="0" value="true"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="0.00" y="180.00" z="0.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.0,1.0,linear,linear;1.0,0.5,linear,linear|x_max,16711680;0.0,1.0,linear,linear;1.0,0.5,linear,linear|y_min,32768;0.0,1.0,linear,linear;1.0,0.5,linear,linear|y_max,65280;0.0,1.0,linear,linear;1.0,0.5,linear,linear|z_min,128;0.0,1.0,linear,linear;1.0,0.5,linear,linear|z_max,255;0.0,1.0,linear,linear;1.0,0.5,linear,linear:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,0.0|y_max,65280;0.0,0.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<ranged_property name="StartTime" quality="0" min="2.95" max="2.95"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.00:x,0;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="true"/>
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+			<property name="ParticleSpinMax" quality="0" x="-60.00" y="180.00" z="30.00"/>
+			<property name="ParticleSpinMin" quality="0" x="-60.00" y="180.00" z="30.00"/>
+		</emitter>
+	</emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains>
+		<behaviour_chain id="sparks_bright_turbulent">
+			<modifier fragment="vs_translation_velocity_v2">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="velocity_stretch_mul" type="curve">x_min,8388608;0.0,0.5,linear,linear|x_max,16711680;0.0,0.5,linear,linear:x,0;0,1</property>
+				<property name="orientation_mode" type="int" value="5"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(2.0,2.0,2.0,1.0)" max="float4(2.0,2.0,2.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(2.0,2.0,2.0,1.0)" max="float4(2.0,2.0,2.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(2.0,2.0,2.0,1.0)" max="float4(2.0,2.0,2.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.25" max="0.70"/>
+			</modifier>
+			<modifier fragment="vs_cell_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="8"/>
+				<property name="atlas_number_of_cells_y" type="int" value="8"/>
+				<property name="atlas_cell" type="int" value="60"/>
+				<property name="number_of_cells_x" type="int" value="2"/>
+				<property name="number_of_cells_y" type="int" value="2"/>
+				<property name="cell" type="int" value="1"/>
+				<property name="randomize_cell" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.0,0.0,linear,linear;0.189189,0.168219,linear,linear;0.735135,0.168219,linear,linear;0.996396,0.0,linear,linear|alpha_max,16711680;0.0,0.0,linear,linear;0.185592,0.434078,linear,linear;0.733339,0.434078,linear,linear;0.996396,0.0,linear,linear:alpha,1;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/glow_cells_A_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="true"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="5.0"/>
+				<property name="small_particles" type="float" value="0.1"/>
+				<property name="large_particles" type="float" value="0.0"/>
+				<property name="directionality" type="float" value="0.5"/>
+				<property name="emissive" type="float" value="1.0"/>
+				<property name="average_size" type="float" value="0.5"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="snowman_01">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="snowman_02">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="snowman_03">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="snowman_04">
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(0.04,0.7,1.0,1.0)" max="float4(0.4,0.75,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,1.0;1.0,1.0;0.915399,1.0;0.084601,1.0|alpha_max,16711680;0.001802,1.0;0.084601,1.0;1.0,1.0;0.915399,1.0:alpha,1;0,1</property>
+			</modifier>
+		</behaviour_chain>
+	</behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks>
+		<effect_render_stack id="sparks_bright_turbulent">
+			<emitters_selected>
+				<emitter id="sparks_bright_turbulent"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="sparks_bright_turbulent"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="true"/>
+		</effect_render_stack>
+		<effect_render_stack id="snowman_01">
+			<emitters_selected>
+				<emitter id="snowman_01"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="snowman_01"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="snowman_02">
+			<emitters_selected>
+				<emitter id="snowman_02"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="snowman_02"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="snowman_03">
+			<emitters_selected>
+				<emitter id="snowman_03"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="snowman_03"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="snowman_04">
+			<emitters_selected>
+				<emitter id="snowman_04"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="snowman_04"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="true" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+	</effect_render_stacks>
+</vfx><vfx_references></vfx_references>

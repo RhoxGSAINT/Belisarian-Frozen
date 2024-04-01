@@ -1,0 +1,12 @@
+key	building	unit	XP	conditions	faction	enabled
+#building_units_allowed_tables;4;db/building_units_allowed_tables/belisarians_chill_king_units_snowmen						
+4578740	wh2_main_brt_ice_tower_0	wh_main_brt_inf_cute_snowmen_shield	0	0		false
+4578741	wh2_main_brt_ice_tower_0	wh_main_brt_inf_cute_snowmen_halb	0	0		false
+4578750	wh2_main_brt_ice_tower_1	wh_main_brt_inf_cute_snowmen_shield	0	0		false
+4578751	wh2_main_brt_ice_tower_1	wh_main_brt_inf_cute_snowmen_halb	0	0		false
+4578760	wh2_main_brt_ice_tower_2	wh_main_brt_inf_cute_snowmen_shield	0	0		false
+4578761	wh2_main_brt_ice_tower_2	wh_main_brt_inf_cute_snowmen_halb	0	0		false
+4578762	wh2_main_brt_ice_tower_2	wh_main_brt_inf_cute_snowmen_axe	0	0		false
+4578770	wh2_main_brt_ice_tower_3	wh_main_brt_inf_cute_snowmen_shield	0	0		false
+4578771	wh2_main_brt_ice_tower_3	wh_main_brt_inf_cute_snowmen_halb	0	0		false
+4578772	wh2_main_brt_ice_tower_3	wh_main_brt_inf_cute_snowmen_axe	0	0		false

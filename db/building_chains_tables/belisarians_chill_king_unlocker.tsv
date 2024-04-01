@@ -1,0 +1,4 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
+#building_chains_tables;9;db/building_chains_tables/belisarians_chill_king_unlocker									
+wh_main_BRETONNIA_ice_castle			military	false	wh2_main_sch_military5		0		true
+wh_main_BRETONNIA_ice_tower			military	false	wh2_main_sch_military6		0		true

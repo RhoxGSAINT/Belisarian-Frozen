@@ -1,0 +1,7 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/belisarians_chill_king_units			
+wh2_unseelie__shield_wall_storm	scalar_bracing	1.5000	mult
+wh2_unseelie__shield_wall_storm	stat_melee_attack	-3.0000	add
+wh2_unseelie__shield_wall_storm	stat_melee_defence	5.0000	add
+wh2_unseelie__shield_wall_storm	stat_resistance_missile	65.0000	add
+wh2_unseelie__shield_wall_storm	scalar_speed	0.2500	mult

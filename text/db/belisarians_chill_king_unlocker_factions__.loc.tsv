@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_unlocker_factions__.loc		
+factions_attack_desc_mixer_brt_uprising	You are attacking the Frozen Order!	true
+factions_defend_desc_mixer_brt_uprising	You are defending against the Frozen Order!	true
+factions_screen_adjective_mixer_brt_uprising	Frozen Order	true
+factions_screen_name_mixer_brt_uprising	Frozen Order	true
+factions_screen_name_when_rebels_mixer_brt_uprising	Frozen Order Rebels	true

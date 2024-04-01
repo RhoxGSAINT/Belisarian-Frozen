@@ -1,0 +1,4 @@
+key	detonator_type	detonation_type	detonation_radius	detonation_duration	detonation_speed	detonation_damage	shrapnel	explosion_particle_effect	fuse_distance_from_target	explosion_particle_effect_on_ground	explosion_audio	contact_phase_effect	ignition_amount	is_magical	detonation_damage_ap	camera_shake	detonation_force	fuse_fixed_time	affects_allies	is_spell
+#projectiles_explosions_tables;19;db/projectiles_explosions_tables/belisarians_chill_king																				
+wh_main_spell_brt_chill_king_excalibur	percussive	shockwave	1.0000	0.0000	10.0000	0.0000		belisarians_excalibur_in_stone	0.0000		wh_comet_of_cas		0.0000	true	0.0000	wh_main_unit_explosion_heavy	700.0000	-1.0000	false	false
+wh_main_spell_brt_chill_king_excalibur_upgraded	percussive	shockwave	1.0000	0.0000	10.0000	0.0000			0.0000		wh_comet_of_cas		0.0000	true	11000.0000	wh_main_unit_explosion_heavy	700.0000	-1.0000	false	false

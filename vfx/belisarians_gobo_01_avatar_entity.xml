@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="2" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>
+
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_istarzia_avatar_summon_lib" scale_min="0.28" scale_max="0.28" pos_x="0.00" pos_y="-4.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
+		<emitter name="initial_smoke" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="fire_pole" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="outer_flames" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.50" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.50" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="distortion" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="remain_fire" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="-0.80" particle_lifetime_bias_max="-0.80" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="remain_embers" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="omni" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="remain_smoke" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="remain_ashes" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.75" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.75" particle_lifetime_bias_min="-1.50" particle_lifetime_bias_max="-1.50" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="bounding_wind" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="bounding_wind_big" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.75" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.80" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+		<emitter name="remain_decal" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.75" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.75" particle_lifetime_bias_min="-6.00" particle_lifetime_bias_max="-6.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+ -->
+</vfx_references>

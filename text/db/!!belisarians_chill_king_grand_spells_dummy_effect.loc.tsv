@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/!!belisarians_chill_king_grand_spells_dummy_effect.loc		
+effects_description_current_eternal_ice_dummy	Current Eternal Ice: %n	true
+effects_description_eternal_winter_dummy	Army spell: "Eternal Winter"	true
+effects_description_freezing_beam_dummy	Army spell: "Freezing Beam"	true
+effects_description_gates_of_avalon_dummy	Army spell: "Gate of Avalon"	true

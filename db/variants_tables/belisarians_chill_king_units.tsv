@@ -1,0 +1,11 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/belisarians_chill_king_units							
+wh_main_brt_mon_ice_shard_drake		brt_mon_ice_shard_drake		1.0000	1.0000	0.0500	
+wh_main_brt_snow_elf_elite		wh_main_brt_snow_elf_elite		1.0000	1.0000	0.0500	
+wh_main_brt_snow_elf_spearmen		wh_main_brt_snow_elf_spearmen		1.0000	1.0000	0.0500	
+wh_main_brt_snow_elf_cavalry		wh_main_brt_snow_elf_cavalry		1.0000	1.0000	0.0500	
+wh_main_brt_snow_golem_shields		wh_main_brt_snow_golem_shields		1.0000	1.0000	0.0500	
+wh_main_brt_snow_golems_greatswords		wh_main_brt_snow_golems_greatswords		1.0000	1.0000	0.0500	
+wh_main_brt_snow_golems_spears		wh_main_brt_snow_golems_spears		1.0000	1.0000	0.0500	
+wh_main_grn_ice_skink_summoner		wh_main_grn_ice_skink_summoner		1.0000	1.0000	0.0500	
+wh2_main_brt_snow_elf_armoured_horse		wh2_main_brt_snow_elf_armoured_horse		1.0000	1.0000	0.0000	

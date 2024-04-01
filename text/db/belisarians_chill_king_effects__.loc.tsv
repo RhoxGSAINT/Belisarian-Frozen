@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_effects__.loc		
+effects_description_wh2_main_effect_brt_upkeep_lords	Upkeep: %+n% for Lords	true
+effects_description_wh_main_effect_brt_dragons_attack	Melee attack: %+n for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_armour	Armour: %+n for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_upkeep	Reduced Upkeep: %+n% for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_fatigue	Vigour loss reduction: %+n% for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_ward_save	Ward save: %n% for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_melee_defence	Melee defence: %+n for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_missile_damage	Missile damage: %+n% for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_charge	Charge bonus: %+n% for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_reload	Reload time reduction: %+n% for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_weapon_strength	Weapon damage: %+n% for Draconic units	true
+effects_description_wh_main_effect_brt_dragons_armour_vet	Armour: %+n for Draconic units {{tr:rank7}}	true
+effects_description_wh_main_effect_brt_dragons_fatigue_vet	Vigour loss reduction: %+n% for Draconic units {{tr:rank7}}	true
+effects_description_wh_main_effect_brt_dragons_melee_defence_vet	Melee defence: %+n for Draconic units {{tr:rank7}}	true
+effects_description_wh_main_effect_brt_chill_king_excalibur	Ability: "Excalibur"	true
+effects_description_wh_main_effect_brt_chill_king_camelot_armor	Ability: "Camelot"	true
+effects_description_wh_main_effect_brt_chill_king_excalibur_overcharge	Overcast spell: "Excalibur Overcharged"	true
+effects_description_wh_main_effect_brt_chill_king_excalibur_slash	Ability: "Excalibur Slash"	true
+effects_description_wh_main_effect_force_army_battle_movement_speed_enemy	Enemy speed: %+n%	true
+effects_description_wh2_main_effect_magic_ice_chill_king_enable_ice_shields	Spell: "Ice Shield"	true
+effects_description_wh2_main_effect_magic_ice_chill_king_enable_crystal_field	Spell: "Crystal Field"	true
+effects_description_wh2_main_effect_magic_ice_chill_king_enable_snowstorm	Spell: "Snowstorm"	true
+effects_description_wh2_main_effect_magic_ice_chill_king_enable_blades_of_ice	Spell: "Blades of Ice"	true
+effects_description_wh2_main_effect_magic_ice_chill_king_enable_blades_of_ice_overcharge	Spell: "Overcharged Blades of Ice"	true
+effects_description_wh2_main_effect_magic_ice_chill_king_enable_ice_wall	Spell: "Ice Wall"	true
+effects_description_wh2_main_effect_magic_ice_chill_king_enable_snowman	Spell: "Giant Snowman"	true
+effects_description_wh2_main_effect_magic_ice_chill_king_enable_icy_fresh	Spell: "Icy Fresh"	true

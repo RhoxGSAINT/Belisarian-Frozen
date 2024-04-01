@@ -1,0 +1,7 @@
+parameter	template	weighting
+#battle_ai_abilities_usage_templates_to_params_tables;0;db/battle_ai_abilities_usage_templates_to_params_tables/belisarians_chill_king_grand_spells		
+bool_charging	augment_melee_area_mass	10.0000
+bool_in_melee	augment_melee_area_mass	0.2000
+bool_out_of_melee	augment_melee_area_mass	0.1500
+value_friendly_units_in_area	augment_melee_area_mass	1.5000
+value_melee_attack	augment_melee_area_mass	1.0000

@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc;1;text/db/belisarians_chill_king_units__ui_unit_bullet_point_enums__.loc		
+ui_unit_bullet_point_enums_onscreen_name_shockwave_charge	Shockwave Charge	true
+ui_unit_bullet_point_enums_tooltip_shockwave_charge	Creates shockwave on charge, disrupting enemy formation.	true
+ui_unit_bullet_point_enums_onscreen_name_roots_enemy	Freezing ground	true
+ui_unit_bullet_point_enums_tooltip_roots_enemy	Freezes enemy to the ground, rooting them.	true
+ui_unit_bullet_point_enums_onscreen_name_protect_area_ability	Area protect ability	true
+ui_unit_bullet_point_enums_tooltip_protect_area_ability	Can protect area with active ability against missiles.	true
+ui_unit_bullet_point_enums_onscreen_name_ice_elemental	Ice Construct	true
+ui_unit_bullet_point_enums_tooltip_ice_elemental	Ice constructs are, by their nature, vulnerable to fire[[img:ui/skins/default/modifier_icon_flaming.png]][[/img]].	true
+ui_unit_bullet_point_enums_onscreen_name_frost_armour	Ice Armour	true
+ui_unit_bullet_point_enums_tooltip_frost_armour	Ice armour provides excellent protection against all types of damage, except fire[[img:ui/skins/default/modifier_icon_flaming.png]][[/img]].	true

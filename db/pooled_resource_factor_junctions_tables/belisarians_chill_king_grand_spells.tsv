@@ -1,0 +1,8 @@
+unique_id	factor	resource	minimum	maximum	specific_faction_set
+#pooled_resource_factor_junctions_tables;2;db/pooled_resource_factor_junctions_tables/belisarians_chill_king_grand_spells					
+eternal_ice_bribes	rhox_belisarian_chill_ice_bribes	eternal_ice	-2147483647	2147483647	
+eternal_ice_buildings	eternal_ice_buildings	eternal_ice	-2147483647	2147483647	
+eternal_ice_chars	eternal_ice_chars	eternal_ice	-2147483647	2147483647	
+eternal_ice_battles	eternal_ice_battles	eternal_ice	-2147483647	2147483647	
+eternal_ice_units	eternal_ice_units	eternal_ice	-2147483647	2147483647	
+eternal_ice_spells	eternal_ice_spells	eternal_ice	-2147483647	2147483647	

@@ -1,0 +1,3 @@
+key	distance	fov	phi	theta	target_x	target_y	target_z	environment_file
+#unit_porthole_camera_settings_tables;2;db/unit_porthole_camera_settings_tables/belisarians_chill_king								
+brt_chill_king	12.0000	20.0000	190.0000	200.0000	-0.5000	3.0000	5.0000	Porthole/advisor/default_porthole.lighting

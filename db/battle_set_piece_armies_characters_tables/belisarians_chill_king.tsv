@@ -1,0 +1,3 @@
+character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/belisarians_chill_king												
+wh2_main_brt_cha_chill_king	1	4589756701		100	4589756702	wh2_main_brt_cha_chill_king	general	wh2_main_brt_cha_chill_king	ui/portraits/portholes/wh2_main_def_dark_elves/wh2_brt_cha_chill_king.png	1458242797		true

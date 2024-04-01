@@ -1,0 +1,8 @@
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/belisarians_chill_king_units											
+wh2_ice_shard_drake__ice_spikes	false	wh2_ice_shard_drake__ice_spikes		wh_type_vortex		wh_main_anc_group_unique	true	false	unit		false
+wh2_unseelie_riders__wind_gust	false	wh2_unseelie_riders__wind_gust		wh_type_vortex		wh_main_anc_group_unique	true	false	unit		false
+wh2_unseelie__ice_nova	false	wh2_unseelie__ice_nova		wh_type_area_of_augments		wh_main_anc_group_unique	false	false	unit		false
+wh2_unseelie__shield_wall_storm	false	wh2_unseelie__shield_wall_storm		wh_type_formation		wh_main_anc_group_common	true	false	unit		false
+wh_snow_golems_unit_passive_unstable	false	wh_main_unit_passive_unstable		wh_type_direct_damage		wh_main_anc_group_common	false	false	unit		false
+wh_snow_golems_unit_passive_unstable_mark_ii	false	wh_main_unit_passive_unstable_mark_ii		wh_type_direct_damage		wh_main_anc_group_common	false	false	unit		false
